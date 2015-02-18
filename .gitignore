@@ -36,3 +36,5 @@ platforms/wp8/*.csproj.user
 resources/signing
 
 platforms/*
+
+plugins/*

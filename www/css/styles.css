@@ -1,4 +1,29 @@
 .canvas {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  webkit-box-justify-content: center;
+  moz-box-justify-content: center;
+  ms-flexbox-justify-content: center;
+  webkit-flex-justify-content: center;
+  justify-content: center;
+
+  webkit-box-align-items: center;
+  moz-box-align-items: center;
+  ms-flexbox-align-items: center;
+  webkit-flex-align-items: center;
+  align-items: center;
+
+  height: 100%;
   background-color: black;
 }
+
+html {
+	height: 100%;
+}
+
+
 
